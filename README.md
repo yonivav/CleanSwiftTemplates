@@ -3,12 +3,12 @@ Clean Swift (a.k.a VIP) is Uncle Bob’s Clean Architecture applied to iOS and M
 
 ## Installation
 1. download this project
-2. open Finder Mac app
-3. open folder (⌘+⇧+G): ~/Library/Developer/Xcode/DerivedData
-4. paste there the templates
-5. finish
+2. In Finder Mac app: open folder (⌘+⇧+G): ~/Library/Developer/Xcode/DerivedData
+3. paste there the templates
+4. finish
 
-# Example
+## Demo
+Open and run the CleanSwiftTemplatesExample project in Xcode to see CleanSwiftTemplates in action. The example is a simple Clean Swift Scene
 
 ## About Clean Swift
 A very good explanation: 
@@ -52,3 +52,6 @@ A Presentor is responsible for the presentation logic. When a screen transition 
 When having all business logic located in the Interactor, there may happen a situation where the Interactor will be a very large class. To prevent this, an Interactor can make use of multiple workers. A Worker is a helper of the Interactor, which can help receiving data.
 A Worker is responsible for creating objects and doing network calls. Besides that, a Worker can be used to implement Third Party SDKs in your application. For example, if you use Alamofire for doing network requests, but do all the network requests in workers, the Alamofire SDK only needs to be imported in the worker.
 Workers must be generic, which means multiple interactors can use them if needed to handle data.
+
+## Contact
+Yoni Vizel
