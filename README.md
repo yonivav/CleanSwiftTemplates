@@ -2,17 +2,21 @@
 Clean Swift (a.k.a VIP) is Uncle Bob’s Clean Architecture applied to iOS and Mac projects. This pRoject contains convenience template to add new code
 
 ## Installation
-1. download this project
-2. In Finder Mac app: open folder (⌘+⇧+G): ~/Library/Developer/Xcode/DerivedData
-3. paste there the templates
-4. finish
+1. Download this project
+2. In Finder Mac app: open folder (⌘+⇧+G): ~/Library/Developer/Xcode/Templates/
+3. Open File Templates and paste the templates
+4. Finish
 
 ## Demo
 Open and run the CleanSwiftTemplatesExample project in Xcode to see CleanSwiftTemplates in action. The example is a simple Clean Swift Scene
 
+## Example usage
+
 ## About Clean Swift
 A very good explanation: 
-good explanation: https://zonneveld.dev/the-clean-swift-architecture-explained/
+good explanation:
+https://zonneveld.dev/the-clean-swift-architecture-explained/
+
 and also:
 https://clean-swift.com/clean-swift-ios-architecture/
 https://sudonull.com/post/14437-Clean-swift-architecture-as-an-alternative-to-VIPER
@@ -20,7 +24,7 @@ https://medium.com/dev-genius/clean-swift-vip-with-example-6f6e643a1a01
  
 In short:
 ### Structure
-Our purpose in a Clean Swift design pattern is to separate the responsibilities of different entities for clarity and testibility. Together, these entities form what we call scenes. Each family is able to operate independently using only the components within that family.
+The purpose in a Clean Swift design pattern is to separate the responsibilities of different entities for clarity and testibility. Together, these entities form what we call scenes. Each family is able to operate independently using only the components within that family.
 The components of each family may include the following:
 	•	View Controller (with .xib or .storyboard file)
 	•	Interactor
