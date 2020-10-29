@@ -68,4 +68,4 @@ https://github.com/yonivav
 
 
 # License
-Inspired from this![template](https://github.com/oluckyman/CleanSwift). CleanSwiftTemplates is available under the MIT license. See the LICENSE file for more info.
+Inspired from https://github.com/oluckyman/CleanSwift. CleanSwiftTemplates is available under the MIT license. See the LICENSE file for more info.
