@@ -1,7 +1,7 @@
 # CleanSwiftTemplates
 Clean Swift (a.k.a VIP) is Uncle Bob’s Clean Architecture applied to iOS and Mac projects. This pRoject contains convenience template to add new code
 
-## Installation
+# Installation
 1. Download this project
 2. In Finder Mac app: open folder (⌘+⇧+G): ~/Library/Developer/Xcode/Templates/
 3. Open File Templates and paste the templates
@@ -11,8 +11,12 @@ Clean Swift (a.k.a VIP) is Uncle Bob’s Clean Architecture applied to iOS and M
 Open and run the CleanSwiftTemplatesExample project in Xcode to see CleanSwiftTemplates in action. The example is a simple Clean Swift Scene
 
 ## Example usage
+Lets say for examample we want to add login screen to our application.
 
-## About Clean Swift
+
+
+
+# About Clean Swift
 A very good explanation: 
 good explanation:
 https://zonneveld.dev/the-clean-swift-architecture-explained/
@@ -21,7 +25,7 @@ and also:
 https://clean-swift.com/clean-swift-ios-architecture/
 https://sudonull.com/post/14437-Clean-swift-architecture-as-an-alternative-to-VIPER
 https://medium.com/dev-genius/clean-swift-vip-with-example-6f6e643a1a01
- 
+
 In short:
 ### Structure
 The purpose in a Clean Swift design pattern is to separate the responsibilities of different entities for clarity and testibility. Together, these entities form what we call scenes. Each family is able to operate independently using only the components within that family.
@@ -57,6 +61,11 @@ When having all business logic located in the Interactor, there may happen a sit
 A Worker is responsible for creating objects and doing network calls. Besides that, a Worker can be used to implement Third Party SDKs in your application. For example, if you use Alamofire for doing network requests, but do all the network requests in workers, the Alamofire SDK only needs to be imported in the worker.
 Workers must be generic, which means multiple interactors can use them if needed to handle data.
 
-## Contact
+# Contact
 Yoni Vizel
+
 https://github.com/yonivav
+
+
+# License
+Inspired from this![template](https://github.com/oluckyman/CleanSwift). CleanSwiftTemplates is available under the MIT license. See the LICENSE file for more info.
