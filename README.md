@@ -1,3 +1,4 @@
+![logo](https://github.com/yonivav/CleanSwiftTemplates/blob/Orphan/image.png)
 # CleanSwiftTemplates
 Clean Swift (a.k.a VIP) is Uncle Bob’s Clean Architecture applied to iOS and Mac projects. In 'Clean Swift' folder you can find a convenience template to add new Xcode. In 'CleanSwiftExample' you can see a basic example.
 
